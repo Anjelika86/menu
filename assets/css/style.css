@@ -16,8 +16,9 @@ body {
   
 }
 
-.name-nav {
+.name-nav-position {
   display: inline-block;
+  position: relative;
 }
 
 .link {
@@ -37,20 +38,16 @@ body {
 
 }
 
-.nav-position{
-  position: relative; 
-}
-
 .sub-nav{
   display: none; 
   position: absolute;
   }
 
-.nav-position:hover > .sub-nav {
+.name-nav-position:hover > .sub-nav {
   display: block;
 }
 
-.sub-nav-2 {
+.sub-nav-position-right{
   left: 100%;
   top: 0;
 }
