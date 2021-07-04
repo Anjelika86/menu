@@ -18,12 +18,11 @@ body {
 
 .name-nav {
   display: inline-block;
-  text-align: center;
- 
 }
 
 .link {
-  display: block;
+  text-align: center;
+  display: inline-block;
   font-size: 18px;
   background-color: #4A906C;
   border: 1px solid #39815B;
@@ -39,7 +38,6 @@ body {
 }
 
 .nav-position{
-  display: inline-block;
   position: relative; 
 }
 
@@ -48,7 +46,7 @@ body {
   position: absolute;
   }
 
-.name-nav:hover > .sub-nav {
+.nav-position:hover > .sub-nav {
   display: block;
 }
 
